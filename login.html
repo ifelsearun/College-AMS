@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="logo">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div id="heading">College Attendance<br>Management System</div>
+            <div id="instruction">Sign in to access your account</div>
+        </div>
+        
+        <form class="input">
+            <div class="input-box">
+                <i class="fa-solid fa-user"></i>
+                <input 
+                    type="text"
+                    name="RegisterNumber" 
+                    placeholder="Register Number / Employee ID"
+                >
+            </div>
+            
+            <div class="input-box">
+                <i class="fa-solid fa-calendar"></i>
+                <input 
+                    type="date"
+                    name="DateOfBirth"
+                >
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+        
+        <div class="or">
+            <hr>
+            OR
+            <hr>
+        </div>
+        <p>Access As</p>
+        <div>
+            <button>Student</button>
+            <button>Faculty</button>
+            <button>Class Adviser</button>
+        </div>
+    </div>
+</body>
+</html>
