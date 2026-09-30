@@ -18,7 +18,7 @@ body {
     background-color: rgba(255, 255, 255, 0.921);
     height: 550px;
     width: 450px;
-    padding: 0;
+    padding: 22px;;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -103,7 +103,7 @@ form button {
 
 .buttons {
     display: flex;
-    gap: 15px;
+    gap: 25px;
     justify-content: center;
     align-items: center;
     width: 400px;
@@ -133,4 +133,8 @@ form button {
 .buttons #cls-adv{
     color: rgb(106, 0, 171);
     background-color: rgba(131, 8, 255, 0.118);
+}
+
+.access {
+    color: rgba(0, 0, 0, 0.521);
 }
