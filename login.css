@@ -1,8 +1,8 @@
 html {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-body{
+body {
     background-image: url(/images/cms.jpg);
     background-size: cover;
     background-position: center;
@@ -12,6 +12,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .container {
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.921);
@@ -37,10 +38,11 @@ body{
     color: rgb(0, 128, 255);
 }
 
-#heading{
+#heading {
     font-size: 28px;
 }
-#instruction{
+
+#instruction {
     color: rgba(0, 0, 0, 0.521);
     font-size: 14px;
 }
@@ -75,11 +77,11 @@ form {
     color: rgb(23, 23, 131);
 }
 
-input[type="date"]{
+input[type="date"] {
     color: rgba(0, 0, 0, 0.542);
 }
 
-form button{
+form button {
     border: 1px solid rgba(0, 0, 0, 0.221);
     border-radius: 6.5px;
     padding: 15px;
@@ -88,7 +90,7 @@ form button{
     font-size: 15px;
 }
 
-.or{
+.or {
     display: flex;
     text-align: center;
     gap: 9px;
@@ -99,7 +101,20 @@ form button{
     color: rgba(0, 0, 0, 0.114);
 }
 
+.buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
 
+.buttons button {
+    flex: 1;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6.5px;
+    height: 60px;
+    width: 90px;
 
-
-
+}
