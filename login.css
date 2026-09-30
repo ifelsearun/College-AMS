@@ -88,3 +88,18 @@ form button{
     font-size: 15px;
 }
 
+.or{
+    display: flex;
+    text-align: center;
+    gap: 9px;
+    color: rgba(0, 0, 0, 0.521);
+}
+
+#dash {
+    color: rgba(0, 0, 0, 0.114);
+}
+
+
+
+
+
