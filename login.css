@@ -58,16 +58,16 @@ form {
     display: flex;
     align-items: center;
     width: auto;
-    border: 1px solid rgba(0, 0, 0, 0.382);
-    border-radius: 2px;
-    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.221);
+    border-radius: 5px;
+    padding: 13px;
     gap: 15px;
-    background-color: white;
 }
 
 .input-box input {
     flex: 1;
     box-sizing: border-box;
-    border-style: none;
+    border: none;
+    background: none;
 }
 
