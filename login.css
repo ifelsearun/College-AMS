@@ -113,8 +113,24 @@ form button {
     flex: 1;
     box-sizing: border-box;
     border: none;
-    border-radius: 6.5px;
+    border-radius: 7px;
     height: 60px;
     width: 90px;
+    font-size: 16px;
+    font-weight: 700;
+}
 
+.buttons #std {
+    background-color: rgba(80, 176, 255, 0.171);
+    color: rgb(8, 8, 174);
+}
+
+.buttons #faculty{
+    background-color: rgba(0, 160, 51, 0.099);
+    color: rgb(0, 102, 0);
+}
+
+.buttons #cls-adv{
+    color: rgb(106, 0, 171);
+    background-color: rgba(131, 8, 255, 0.118);
 }
