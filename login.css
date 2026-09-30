@@ -59,7 +59,7 @@ form {
     align-items: center;
     width: auto;
     border: 1px solid rgba(0, 0, 0, 0.221);
-    border-radius: 5px;
+    border-radius: 6.5px;
     padding: 13px;
     gap: 15px;
 }
@@ -70,4 +70,14 @@ form {
     border: none;
     background: none;
 }
+
+.input-box i {
+    color: rgb(23, 23, 131);
+}
+
+input[type="date"]{
+    color: rgba(0, 0, 0, 0.542);
+}
+
+
 
